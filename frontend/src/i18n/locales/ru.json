@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "FocusFlow",
+    "subtitle": "Интеллектуальный менеджер задач"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English",
+    "label": "Язык"
+  },
+  "task": {
+    "title": "Название",
+    "description": "Описание",
+    "priority": "Приоритет",
+    "status": "Статус",
+    "dueDate": "Срок выполнения",
+    "category": "Категория",
+    "createdAt": "Создано",
+    "updatedAt": "Обновлено",
+    "noDueDate": "Без срока",
+    "noCategory": "Без категории"
+  },
+  "priority": {
+    "low": "Низкий",
+    "medium": "Средний",
+    "high": "Высокий"
+  },
+  "status": {
+    "pending": "Ожидает",
+    "in_progress": "В работе",
+    "done": "Готово"
+  },
+  "filters": {
+    "title": "Фильтры",
+    "allStatuses": "Все статусы",
+    "allPriorities": "Все приоритеты",
+    "searchPlaceholder": "Поиск по названию или описанию…",
+    "clear": "Сбросить",
+    "dueBefore": "Срок до",
+    "dueAfter": "Срок после"
+  },
+  "actions": {
+    "create": "Создать",
+    "createTask": "Создать задачу",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "close": "Закрыть"
+  },
+  "dialog": {
+    "deleteTitle": "Удалить задачу?",
+    "deleteDescription": "Это действие нельзя отменить. Задача «{{title}}» будет удалена безвозвратно.",
+    "createTitle": "Новая задача",
+    "editTitle": "Редактирование задачи"
+  },
+  "validation": {
+    "titleRequired": "Название обязательно",
+    "titleTooLong": "Название не может быть длиннее 255 символов",
+    "descriptionTooLong": "Описание не может быть длиннее 10 000 символов"
+  },
+  "list": {
+    "empty": "Задач пока нет",
+    "emptyFiltered": "Нет задач по выбранным фильтрам",
+    "loading": "Загрузка задач…",
+    "errorLoading": "Не удалось загрузить задачи",
+    "totalCount": "Всего: {{count}}",
+    "page": "Страница {{page}} из {{total}}",
+    "prev": "Назад",
+    "next": "Вперёд"
+  },
+  "toast": {
+    "taskCreated": "Задача создана",
+    "taskUpdated": "Задача обновлена",
+    "taskDeleted": "Задача удалена",
+    "error": "Ошибка"
+  },
+  "errors": {
+    "not_found": "Задача не найдена",
+    "validation_error": "Ошибка валидации",
+    "llm_error": "Ошибка LLM",
+    "llm_invalid_response": "LLM вернул некорректный ответ",
+    "llm_not_configured": "LLM не настроен. Укажите GROQ_API_KEY в .env",
+    "internal_error": "Внутренняя ошибка сервера",
+    "network": "Нет подключения к серверу",
+    "unknown": "Неизвестная ошибка"
+  },
+  "llm": {
+    "suggest": "AI",
+    "categorize": "Предложить категорию",
+    "decompose": "Разбить на подзадачи",
+    "loading": "AI думает…",
+    "suggestion": "Предложение",
+    "categoryProposed": "Предложенная категория: {{category}}",
+    "apply": "Применить",
+    "reject": "Отклонить",
+    "summaryTitle": "Сводка нагрузки",
+    "summaryGenerate": "Сгенерировать сводку",
+    "summaryHint": "AI проанализирует ваши задачи и даст рекомендации",
+    "summaryLoading": "AI формирует сводку…",
+    "summaryNeedTitle": "Сначала заполните название задачи",
+    "subtasksTitle": "Предложенные подзадачи",
+    "subtasksHint": "Выберите подходящие — они добавятся в описание задачи",
+    "subtasksApply": "Добавить в описание"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "FocusFlow",
+    "subtitle": "Intelligent task manager"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English",
+    "label": "Language"
+  },
+  "task": {
+    "title": "Title",
+    "description": "Description",
+    "priority": "Priority",
+    "status": "Status",
+    "dueDate": "Due date",
+    "category": "Category",
+    "createdAt": "Created",
+    "updatedAt": "Updated",
+    "noDueDate": "No due date",
+    "noCategory": "No category"
+  },
+  "priority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "status": {
+    "pending": "Pending",
+    "in_progress": "In progress",
+    "done": "Done"
+  },
+  "filters": {
+    "title": "Filters",
+    "allStatuses": "All statuses",
+    "allPriorities": "All priorities",
+    "searchPlaceholder": "Search by title or description…",
+    "clear": "Clear",
+    "dueBefore": "Due before",
+    "dueAfter": "Due after"
+  },
+  "actions": {
+    "create": "Create",
+    "createTask": "Create task",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "dialog": {
+    "deleteTitle": "Delete task?",
+    "deleteDescription": "This action cannot be undone. Task \"{{title}}\" will be permanently deleted.",
+    "createTitle": "New task",
+    "editTitle": "Edit task"
+  },
+  "validation": {
+    "titleRequired": "Title is required",
+    "titleTooLong": "Title must be 255 characters or less",
+    "descriptionTooLong": "Description must be 10,000 characters or less"
+  },
+  "list": {
+    "empty": "No tasks yet",
+    "emptyFiltered": "No tasks match the filters",
+    "loading": "Loading tasks…",
+    "errorLoading": "Failed to load tasks",
+    "totalCount": "Total: {{count}}",
+    "page": "Page {{page}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "toast": {
+    "taskCreated": "Task created",
+    "taskUpdated": "Task updated",
+    "taskDeleted": "Task deleted",
+    "error": "Error"
+  },
+  "errors": {
+    "not_found": "Task not found",
+    "validation_error": "Validation error",
+    "llm_error": "LLM error",
+    "llm_invalid_response": "LLM returned an invalid response",
+    "llm_not_configured": "LLM is not configured. Set GROQ_API_KEY in .env",
+    "internal_error": "Internal server error",
+    "network": "Cannot connect to server",
+    "unknown": "Unknown error"
+  },
+  "llm": {
+    "suggest": "AI",
+    "categorize": "Suggest category",
+    "decompose": "Break into subtasks",
+    "loading": "AI is thinking…",
+    "suggestion": "Suggestion",
+    "categoryProposed": "Proposed category: {{category}}",
+    "apply": "Apply",
+    "reject": "Dismiss",
+    "summaryTitle": "Workload summary",
+    "summaryGenerate": "Generate summary",
+    "summaryHint": "AI will analyze your tasks and give recommendations",
+    "summaryLoading": "AI is preparing summary…",
+    "summaryNeedTitle": "Fill in the task title first",
+    "subtasksTitle": "Suggested subtasks",
+    "subtasksHint": "Select relevant ones — they'll be added to the task description",
+    "subtasksApply": "Add to description"
+  }
+}
